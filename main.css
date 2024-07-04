@@ -24,3 +24,140 @@
     @apply bg-cover;
     background-size: 100% 100%;
   }
+/*Shivam Workspace  */
+
+*{ 
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    perspective: 10px;
+    overflow-x: hidden;
+    background-color: rgb(29, 178, 219);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+hr{
+    width: 25%;
+}
+.bg{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+}
+.box{
+    border: 5px solid white;
+    margin-top:20px ;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+
+    
+}
+.bg1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(ngo1.jpg);
+    padding-top: 2rem;
+}
+.bg2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(ngo2.jpg);
+    background-size: cover;
+
+}
+.secHeading{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+.FirstHeading{
+    font-size: 40px;
+    background-color: transparent;
+    color: white;
+    padding-top: 150px;
+}
+.SecondHeading{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+   
+} 
+.text{
+    color: white;
+    font-size: 25px;
+    font-style:normal;
+}
+
+.button{
+    width: 150px;
+    height:50px;
+    border-radius: 25px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.button:hover{
+    
+    background-color:orange;
+ 
+}
+.coloum {
+    float: left;
+    width: 40%;
+    padding : 5px;
+   
+    
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+  .img1{
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-right: 10px;
+    
+  }
+  .img2{
+    border: 1px solid black;
+
+    margin-left: 200px;
+    margin-right: 20px;
+  }
+  .text1{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .img{
+    width: 2rem;
+    height: 2rem;
+    content: "";
+    clear: both;
+    display: table;
+    float: left;
+    width: 55%;
+    padding : 5px;
+    text-align:right;
+    
+    
+  }
+  #button:hover{
+    background-color:blue;
+  }
