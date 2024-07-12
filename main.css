@@ -331,10 +331,10 @@ hr{
 
         .maincon{
             width: 100vw;
-            height:10vh;
-            background-color: rgba(205,187,167 , 0.428);
+            height: 100vh;
+            background-color: rgba(175, 212, 244, 0.428);
           
-           border: 2px solid rgb(205,187,167 );
+           border: 2px solid rgb(198, 217, 235);
             overflow: hidden;
         }
         .navbar{
@@ -342,13 +342,13 @@ hr{
             width: 100vw;
             /* background-color: #0093E9;
             background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
-            background-color: #f4dfd0;
-            background-image: linear-gradient(135deg, #f4d4d0 0%, #dad0c2 100%);
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
             display: flex;
             gap: 200px;
             justify-content: space-between;
-            box-shadow: 2px 2px 20px rgb(205,187,167 );
+            box-shadow: 2px 2px 20px rgb(27, 61, 105);
            
         }
         .con1{
@@ -377,7 +377,7 @@ hr{
             /* font-size: 0.8rem; */
             text-decoration: none ;
             color: white;
-            text-shadow: 2px 2px 4px rgb(205,187,167 );
+            text-shadow: 2px 2px 4px rgb(54, 77, 126);
         }
         .con2{
             align-items: center;
@@ -397,16 +397,35 @@ hr{
 
         }
         #but{
-            background-color: rgb(205,187,167 );
+            background-color: rgb(189, 206, 236);
             height: 60%;
             width: 50%;
             color: white;
             border-radius: 10px;
-            box-shadow: 2px 2px 2px rgb(205,187,167 );
-            border: 2px solid rgb(205,187,167 );
+            box-shadow: 2px 2px 2px rgb(138, 155, 187);
+            border: 2px solid rgb(142, 160, 189);
             transition: all 0.2s linear 0s;
         }
         #but:hover{
             transform: scale(1.4);
-            background-color: rgb(205,187,167 );
+            background-color: rgb(54, 77, 126);
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
