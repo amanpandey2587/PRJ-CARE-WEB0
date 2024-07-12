@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/*Aman's Code  */
 .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -35,7 +35,7 @@
 .wrapper{
     perspective: 10px;
     overflow-x: hidden;
-    background-color: rgb(29, 178, 219);
+    background-color: #fdefef;
 }
 
 .container{
@@ -251,7 +251,7 @@ hr{
 
 .bottom{
     padding-top: 2rem;
-    background-color: rgb(180, 125, 61);
+    background-color: #cdbba7;
     margin-top: 2rem;
 }
 
@@ -321,27 +321,92 @@ hr{
 #send:hover {
     
     
-    color: rgb(183, 188, 86);
+    color: rgb(183,205,213);
     border: 2px solid rgb(183, 188, 86);
 
     
 }
 
+/* Amit's Code  */
 
+        .maincon{
+            width: 100vw;
+            height:10vh;
+            background-color: rgba(205,187,167 , 0.428);
+          
+           border: 2px solid rgb(205,187,167 );
+            overflow: hidden;
+        }
+        .navbar{
+            height: 5vh;
+            width: 100vw;
+            /* background-color: #0093E9;
+            background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+            background-color: #f4dfd0;
+            background-image: linear-gradient(135deg, #f4d4d0 0%, #dad0c2 100%);
 
+            display: flex;
+            gap: 200px;
+            justify-content: space-between;
+            box-shadow: 2px 2px 20px rgb(205,187,167 );
+           
+        }
+        .con1{
+            height: 100%;
+            width: 15%;
+            display: flex;           
+        }
+        .logo{
+            height: 100%;
+            width: 50%;
+        }
+        #logoimg{
+            height: 100%;
+            width: 80%;
+            border-radius: 0px;
+        }
+        .logo_name{
+            height: 100%;
+            width: 50%;
+            color: white;
+            font-size: 0.7rem;
+            display: flex;
+            align-items: center;
+        }
+        a{
+            /* font-size: 0.8rem; */
+            text-decoration: none ;
+            color: white;
+            text-shadow: 2px 2px 4px rgb(205,187,167 );
+        }
+        .con2{
+            align-items: center;
+            height: 100%;
+            width: 70%;
+            font-size: 0.7em;
+            display: flex;
+            gap: 50px;
+          
+        }
+        .con3{
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font: 0.1rem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
+        #but{
+            background-color: rgb(205,187,167 );
+            height: 60%;
+            width: 50%;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px rgb(205,187,167 );
+            border: 2px solid rgb(205,187,167 );
+            transition: all 0.2s linear 0s;
+        }
+        #but:hover{
+            transform: scale(1.4);
+            background-color: rgb(205,187,167 );
+        }
