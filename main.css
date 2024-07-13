@@ -111,7 +111,7 @@ hr{
     width: 150px;
     height:50px;
     border-radius: 25px;
-    border-color: white;
+    border:1px solid white;
     background-color: transparent;
     color: white;
     font-size: 15px;
@@ -159,7 +159,8 @@ hr{
     display: table;
     float: left;
     width: 55%;
-    padding:5px;
+/*     padding:5px; */
+    margin:0.5rem;
     text-align:right;
     
     
@@ -187,7 +188,7 @@ hr{
     padding-bottom: 1rem;
 }
 
-.text{
+.text_impact{
     color: rgb(78, 76, 76);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -260,9 +261,9 @@ hr{
     max-width: 70%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(240, 255, 255);
+    color: rgb(107 61 47 / 80%);
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 520;
 }
 
 .bottom-upper{
@@ -287,7 +288,7 @@ hr{
 .inputbox{
     width: 100%;
     background-color: transparent;
-    border: 2px solid rgb(240, 255, 255);;
+    border: 1.7px solid rgb(107 61 47 / 80%);
 }
 
 
@@ -311,8 +312,8 @@ hr{
     height: 2rem;
     width: 4rem;
     background-color: transparent;
-    border: 2px solid white;
-    color: azure;
+    border: 2px solid rgba(107, 61, 47, 0.8);
+    color: rgb(107 61 47 / 80%);
     margin-bottom: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     transition: all 0.15s linear 0s;
@@ -321,8 +322,9 @@ hr{
 #send:hover {
     
     
-    color: rgb(183,205,213);
-    border: 2px solid rgb(183, 188, 86);
+/*     color: rgb(183,205,213);
+    border: 2px solid rgb(183, 188, 86); */
+    background-color: white;
 
     
 }
@@ -331,8 +333,8 @@ hr{
 
         .maincon{
             width: 100vw;
-            height: 100vh;
-            background-color: rgba(175, 212, 244, 0.428);
+            /* height: 100vh; */
+            background-color:#f0dbdb;
           
            border: 2px solid rgb(198, 217, 235);
             overflow: hidden;
@@ -342,13 +344,12 @@ hr{
             width: 100vw;
             /* background-color: #0093E9;
             background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
-            background-color: #8BC6EC;
-            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            background-color: #fefcf3;
+            background-image: linear-gradient(135deg, #fefcf3 0%, #F5EBE0 100%);
 
             display: flex;
-            gap: 200px;
+            
             justify-content: space-between;
-            box-shadow: 2px 2px 20px rgb(27, 61, 105);
            
         }
         .con1{
@@ -360,57 +361,45 @@ hr{
             height: 100%;
             width: 50%;
         }
-        #logoimg{
-            height: 100%;
-            width: 80%;
-            border-radius: 0px;
-        }
+        
         .logo_name{
-            height: 100%;
-            width: 50%;
+            
             color: white;
-            font-size: 0.7rem;
             display: flex;
             align-items: center;
         }
         a{
             /* font-size: 0.8rem; */
-            text-decoration: none ;
-            color: white;
+            color:#dba39a;
             text-shadow: 2px 2px 4px rgb(54, 77, 126);
         }
         .con2{
             align-items: center;
-            height: 100%;
             width: 70%;
-            font-size: 0.7em;
             display: flex;
             gap: 50px;
           
         }
         .con3{
-            width: 20%;
+            
             display: flex;
             align-items: center;
             justify-content: center;
             font: 0.1rem;
 
         }
-        #but{
+        .con3{
             background-color: rgb(189, 206, 236);
-            height: 60%;
-            width: 50%;
             color: white;
             border-radius: 10px;
             box-shadow: 2px 2px 2px rgb(138, 155, 187);
             border: 2px solid rgb(142, 160, 189);
             transition: all 0.2s linear 0s;
         }
-        #but:hover{
-            transform: scale(1.4);
-            background-color: rgb(54, 77, 126);
+        .con3:hover{
+            transform: scale(1.2);
+            background-color: rgb(138, 155, 187);
         }
-
 
 
 
