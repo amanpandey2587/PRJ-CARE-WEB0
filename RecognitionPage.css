@@ -1,0 +1,307 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+::-webkit-scrollbar {
+    width: 20px; 
+    height: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffff00;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 10px;
+    width: 20%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-horizontal {
+    height: 67px;
+}
+
+::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+    width: 70px;
+}
+
+  html, body {
+    /* height: 100%;*/
+    /* overflow-x: hidden;  */
+    /* margin: 0; */ 
+    font-family: Arial, sans-serif;
+  }
+  .wrapper{
+    perspective: 10px;
+    height: 100vh;
+    overflow-x: hidden;
+    /* overflow-y: initial; */
+    padding-top: 50px;
+  }
+  
+  .container{
+    position: relative;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .foreground{
+    transform: translateZ(-60px) scale(2);
+    
+  }
+  /* .firstbg{
+    transform: translateZ(70px) scale(1);
+  }
+  .firstbg{
+    transform: translateZ(-60px) scale(1); 
+    height: 100%;
+    width: 100%;
+  } */
+  #hover1:hover{
+    color: blanchedalmond;
+  }
+  
+  .background, .foreground{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  h1{
+    position: absolute;
+    /* transform: translateZ(-50px) scale(2); */
+    transform: translateX(-50%);
+    top: 5rem;
+    left: 50%;
+    letter-spacing: 4px;
+    font-size: 10rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+  }
+  section {
+    padding: 5rem 2rem;
+    background-color: #FDF6F0;
+  }
+  
+  .secondH {
+    text-align: center;
+    font-size: 4rem;
+    /* margin-bottom: 1rem; */
+    /* padding: 5rem; */
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+  .firstbg{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .text {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    /* min-width: 800px; */
+    margin: 0 auto 2rem auto;
+    color: rgb(0, 2, 3);
+    padding: 0 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+  }
+  .name{
+    position: absolute;
+    top: 50%;
+  }
+
+  .bg {
+    position: relative;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+  
+  .name {
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  
+  section{
+    padding: 5rem 0;
+  }
+  .bg1{
+    background-image: url(images/1st\ copy.jpeg);
+  }
+  .bg2{
+    background-image: url(images/2nd\ copy.jpeg);
+  }
+  .bg3{
+    background-image: url(images/image3\ copy.jpg);
+  }
+  .name{
+    height: 30rem;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: .6;
+
+  }
+ 
+  .scroll-wrapper {
+    position: fixed;
+    top: 5vh; /* Adjust based on your header height */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+
+#hover1:hover {
+    color: blanchedalmond;
+}
+
+.navbar {
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top of the page */
+    left: 0; /* Align it to the left */
+    width: 99.18%; /* Make it full width */
+    height: 5vh; /* Set the desired height */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    align-items: flex-start;
+    gap: 200px;
+    justify-content: space-between;
+    /* box-shadow: 2px 2px 20px rgb(27, 61, 105); */
+    z-index: 1; /* Ensure it stays on top of other elements */
+    
+
+}
+
+
+.con1 {
+    height: 100%;
+    width: 15%;
+    display: flex;            
+}
+
+.logo {
+    height: 100%;
+    width: 50%;
+}
+
+#logoimg {
+    height: 100%;
+    width: 80%;
+    border-radius: 0px;
+}
+
+.logo_name {
+    height: 100%;
+    width: 50%;
+    color: white; 
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6, 0, 0);
+    /* text-shadow: 2px 2px 4px rgb(54, 77, 126); */
+}
+.maincon {
+    position: fixed;
+    top: 5vh; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.con2 {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 0.7em;
+    display: flex;
+    gap: 50px;
+    color: black;
+    
+}
+
+.con3{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font: 0.1rem;
+    margin-top: 5px;
+    height: 120%;
+}
+/* .con2:hover{
+    transform: scale(1.4);
+    background-color: rgb(54, 77, 126);
+} */
+#but{
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+    width: 50%;
+    color: rgb(6, 0, 0);
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px rgb(138, 155, 187); */
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.2s linear 0s;
+}
+#but:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+}
+#impact:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+    /* color: black; */
+}
+#get:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+#updates:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+#contri:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+#contact:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+#about:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
