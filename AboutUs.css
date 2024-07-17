@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+  
+  .column {
+    margin-bottom: 20px;
+  }
+  
+  .column img {
+    max-width: 100%;
+    border-radius: 8px; 
+  }
+
+  .column:nth-child(1),
+  .column:nth-child(4),
+  .column:nth-child(5),
+  .column:nth-child(8) :hover{
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+.container column :hover{
+  transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.column:nth-child(1),
+.column:nth-child(4),
+.column:nth-child(5),
+.column:nth-child(8) {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 10px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ddd; /* Border for clarity */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+  
+  .column:nth-child(odd) {
+    padding: 10px;
+  }
+  
+  /* Responsive layout */
+  @media screen and (min-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  }
+  
