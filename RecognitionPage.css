@@ -1,4 +1,18 @@
- *{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-custom-size {
+    @apply bg-cover;
+    background-size: 100% 100%;
+  }
+
+
+
+.logo_name, .con2{
+   text-shadow: 2px 2px 4px rgb(54,77,126);  
+} 
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
