@@ -17,41 +17,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-/*
-::-webkit-scrollbar {
-    width: 20px; 
-    height: 2px;
-}
-
-::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-}
-
-::-webkit-scrollbar-track {
-    background: #ffff00;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #000000;
-    border-radius: 10px;
-    width: 20%;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #ffffff;
-}
-
-::-webkit-scrollbar-horizontal {
-    height: 67px;
-}
-
-::-webkit-scrollbar-corner {
-    background: #f1f1f1;
-    width: 70px;
-}
-*/
   html, body {
     /* height: 100%;*/
     /* overflow-x: hidden;  */
@@ -184,14 +149,7 @@
 
   }
  
-  .scroll-wrapper {
-    position: fixed;
-    top: 5vh; /* Adjust based on your header height */
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow-y: auto;
-}
+
 
 
 #hover1:hover {
