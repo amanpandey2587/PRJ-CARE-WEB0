@@ -1,4 +1,19 @@
 /* Plantation css (Navnita) */
+/* Plantation css (Navnita) */
+/*Adding header style  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-custom-size {
+  @apply bg-cover;
+  background-size: 100% 100%;
+}
+
+
+
+.logo_name, .con2{
+ text-shadow: 2px 2px 4px rgb(54,77,126);  
+} 
 header{
     height: 650px;
     width: 100%;
