@@ -79,15 +79,16 @@ hr{
     width:100%;
 
 }
-.secHeading{
+/* .secHeading{
     margin-top: 10px;
     margin-bottom: 0px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     font-style: normal;
-}
+} */
 .FirstHeading{
+    font-weight: bolder;
     font-size: 40px;
     background-color: transparent;
     color: white;
@@ -95,14 +96,15 @@ hr{
 }
 .SecondHeading{
     color: white;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 700;
     font-style: normal;
     margin-top: 8rem;
+    font-weight: normal;
 } 
 .text{
     color: white;
-    font-size: 25px;
+    font-size: 1.25rem;
     font-style:normal;
 }
 
@@ -154,7 +156,7 @@ hr{
    }
   .text1{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     margin-right: 1rem;
   }
   .img{
