@@ -1,22 +1,43 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-.bg-custom-size {
-    @apply bg-cover;
-    background-size: 100% 100%;
-  }
-
-
-
-.logo_name, .con2{
-   text-shadow: 2px 2px 4px rgb(54,77,126);  
-} 
-
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
+::-webkit-scrollbar {
+    width: 20px; 
+    height: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffff00;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 10px;
+    width: 20%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-horizontal {
+    height: 67px;
+}
+
+::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+    width: 70px;
+}
+
   html, body {
     /* height: 100%;*/
     /* overflow-x: hidden;  */
@@ -25,7 +46,7 @@
   }
   .wrapper{
     perspective: 10px;
-    /* height: 100vh; */
+    height: 100vh;
     overflow-x: hidden;
     /* overflow-y: initial; */
     padding-top: 50px;
@@ -91,9 +112,8 @@
 
   }
   .firstbg{
-    height: 100rem;
+    height: 100%;
     width: 100%;
-    margin-left:11.5rem;
   }
   
   .text {
@@ -116,7 +136,7 @@
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
-    height: 20rem;
+    height: 32rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,10 +169,139 @@
 
   }
  
-
+  .scroll-wrapper {
+    position: fixed;
+    top: 5vh; /* Adjust based on your header height */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
 
 
 #hover1:hover {
     color: blanchedalmond;
 }
 
+.navbar {
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top of the page */
+    left: 0; /* Align it to the left */
+    width: 99.18%; /* Make it full width */
+    height: 5vh; /* Set the desired height */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    align-items: flex-start;
+    gap: 200px;
+    justify-content: space-between;
+    /* box-shadow: 2px 2px 20px rgb(27, 61, 105); */
+    z-index: 1; /* Ensure it stays on top of other elements */
+    
+
+}
+
+
+.con1 {
+    height: 100%;
+    width: 15%;
+    display: flex;            
+}
+
+.logo {
+    height: 100%;
+    width: 50%;
+}
+
+#logoimg {
+    height: 100%;
+    width: 80%;
+    border-radius: 0px;
+}
+
+.logo_name {
+    height: 100%;
+    width: 50%;
+    color: white; 
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6, 0, 0);
+    /* text-shadow: 2px 2px 4px rgb(54, 77, 126); */
+}
+.maincon {
+    position: fixed;
+    top: 5vh; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.con2 {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 0.7em;
+    display: flex;
+    gap: 50px;
+    color: black;
+    
+}
+
+.con3{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font: 0.1rem;
+    margin-top: 5px;
+    height: 120%;
+}
+/* .con2:hover{
+    transform: scale(1.4);
+    background-color: rgb(54, 77, 126);
+} */
+#but{
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+    width: 50%;
+    color: rgb(6, 0, 0);
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px rgb(138, 155, 187); */
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.2s linear 0s;
+}
+#but:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+}
+#impact:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+    /* color: black; */
+}
+#get:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+#updates:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+#contri:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+#contact:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+#about:hover{
+    border-radius: 2px;
+    transform: scale(1.2);
+}
