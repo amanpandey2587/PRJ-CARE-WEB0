@@ -112,7 +112,7 @@
   }
 
   .bg {
-    position: relative;
+    position: fixed;
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
