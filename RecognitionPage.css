@@ -70,7 +70,8 @@
     top: 5rem;
     left: 50%;
     letter-spacing: 4px;
-    font-size: 10rem;
+    font-size: 40px; 
+/*       erlier font size was 10 rem */
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -83,7 +84,8 @@
   
   .secondH {
     text-align: center;
-    font-size: 4rem;
+    font-size: 25px;
+/*       erlier font size was 4rem */
     /* margin-bottom: 1rem; */
     /* padding: 5rem; */
     color: rgb(0, 0, 0);
