@@ -381,7 +381,7 @@ hr{
         a{
             /* font-size: 0.8rem; */
             color:#dba39a;
-            text-shadow: 2px 2px 4px rgb(54, 77, 126);
+/*             text-shadow: 2px 2px 4px rgb(54, 77, 126); */
         }
         .con2{
             align-items: center;
@@ -402,7 +402,7 @@ hr{
             background-color: rgb(189, 206, 236);
             color: white;
             border-radius: 10px;
-            box-shadow: 2px 2px 2px rgb(138, 155, 187);
+/*             box-shadow: 2px 2px 2px rgb(138, 155, 187); */
             border: 2px solid rgb(142, 160, 189);
             transition: all 0.2s linear 0s;
         }
