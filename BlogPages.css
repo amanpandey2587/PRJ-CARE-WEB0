@@ -28,7 +28,7 @@ header{
 }
 .banner{
     height: 600px;
-    background-image: url("header-2.jpg");
+    background-image: url("header-3.jpg");
     background-size: cover;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -130,9 +130,9 @@ header{
     padding: 10px;
 }
 .link{
-    display:inline;
-    background-color: #F4DFD0 ;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bottom{
     padding-top: 2rem;
