@@ -199,7 +199,8 @@ hr{
 .text_impact{
     color: rgb(78, 76, 76);
 /*     font-family: Arial, Helvetica, sans-serif; */
-    font-size: 2rem;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 .gridview{
@@ -269,8 +270,9 @@ hr{
     max-width: 70%;
     margin: 0 auto;
 /*     font-family: Arial, Helvetica, sans-serif; */
+    
     color: rgb(107 61 47 / 80%);
-    font-size: 0.8rem;
+    font-size: 20px;
     font-weight: 520;
 }
 
