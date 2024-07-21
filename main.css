@@ -245,7 +245,7 @@ hr{
     text-decoration: none;
     color: azure;
 /*    font-family: Arial, Helvetica, sans-serif; */
-   font-weight: 500;
+/*    font-weight: 500; */
    font-size: 1.5rem;
 }
 
@@ -273,7 +273,7 @@ hr{
     
     color: rgb(107 61 47 / 80%);
     font-size: 20px;
-    font-weight: 520;
+/*     font-weight: 520; */
 }
 
 .bottom-upper{
