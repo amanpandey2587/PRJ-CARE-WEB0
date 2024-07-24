@@ -120,7 +120,8 @@ hr{
 }
 .button:hover{
     
-    background-color:orange;
+    background-color: #8a73486e;
+    transition-duration: 0.2s;
  
 }
 /* .coloum {
