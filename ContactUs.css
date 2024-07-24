@@ -94,10 +94,10 @@ input[type="text"], input[type="tel"], input[type="email"], textarea {
   background-color: #ad6d05;
   color: white;
 }
-/* #anchor:hover{
+#anchor:hover{
   color: orange;
-  border: 1px, solid, green;
-} */
+/*   border: 1px, solid, green; */
+}
 input[type = "text"]:hover{
   border: 2px solid green;
 }
