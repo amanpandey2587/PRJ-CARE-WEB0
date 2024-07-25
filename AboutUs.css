@@ -9,8 +9,6 @@
   background-size: 100% 100%;
 }
 
-
-
 /* General styling */
 body {
   font-family: Arial, sans-serif;
@@ -163,6 +161,8 @@ header img {
   justify-content: center; /* add this to center the text horizontally */
   align-items: center; /* add this to center the text vertically */
 }
+
+
   
   /* Responsive layout */
   @media screen and (min-width: 768px) {
