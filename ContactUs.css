@@ -115,12 +115,10 @@ input[type = "tel"]:hover{
 textarea:hover{
   border: 2px solid green;
 } */
-.one:hover{
+.one:hover, .two:hover{
   border: 2px solid green;
 }
-.two:hover{
-  border: 2px solid green;
-}
+
 @media only screen and (max-width: 768px) {
   
   h1 {
