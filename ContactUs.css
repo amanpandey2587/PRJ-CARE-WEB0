@@ -115,6 +115,10 @@ input[type = "tel"]:hover{
 textarea:hover{
   border: 2px solid green;
 } */
+
+#submit: hover{
+  border: 2px solid green;
+}
 .one:hover, .two:hover{
   border: 2px solid green;
 }
