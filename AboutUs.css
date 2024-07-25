@@ -54,7 +54,7 @@ header img {
 }
 
 .column {
-  height: 540px;
+  height: 500px;
   display: flex; /* make the column a flex container */
   flex-direction: column; /* stack the elements vertically */
   align-items: center; /* center the elements horizontally */
