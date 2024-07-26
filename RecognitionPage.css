@@ -18,7 +18,7 @@
     /* height: 100%;*/
     /* overflow-x: hidden;  */
     /* margin: 0; */ 
-    font-family: Arial, sans-serif;
+    
   }
   .wrapper{
     perspective: 10px;
@@ -70,7 +70,7 @@
     font-size: 40px; 
 /*       erlier font size was 10 rem */
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     
   }
@@ -86,7 +86,7 @@
     /* margin-bottom: 1rem; */
     /* padding: 5rem; */
     color: rgb(0, 0, 0);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 
   }
   .firstbg{
@@ -102,7 +102,7 @@
     margin: 0 auto 2rem auto;
     color: rgb(0, 2, 3);
     padding: 0 10rem;
-    font-family: 'Times New Roman', Times, serif;
+
     margin-top: 20px;
   }
   .name{
@@ -144,7 +144,7 @@
   }
   .name{
     height: 30rem;
-    font-family: 'Times New Roman', Times, serif;
+    
     opacity: .6;
 
   }
