@@ -29,6 +29,8 @@
   }
   
   .container{
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
     display: flex;
     transform-style: preserve-3d;
