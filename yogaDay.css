@@ -287,155 +287,59 @@ footer {
     }
 }
 
-footer {
-    padding: 1.5% 5%;
-    position: relative;
-    bottom: 0;
-    font-size: 24px;
-    color: #fff;
-    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+/* footer css */
+.bottom{
+  padding-top: 2rem;
+  background-color: #cdbba7;
+  margin-top: 2rem;
 }
 
-footer .neeche {
-    display: flex;
+.bottomcontent{
+  
+  max-width: 70%;
+  margin: 0 auto;
+  color: rgb(107 61 47 / 80%);
+  font-weight: 520;
 }
 
-.dis h5,
-.neeche-left h5,
-.neeche-right h5 {
-    font-size: 25px;
-    margin-bottom: 20px;
+.bottom-upper{
+  width: 100%;
 }
 
-.neeche-left {
-    width: 50%;
-    float: left;
-    text-align: left;
-    font-size: 22.5px;
-    font-weight: 550;
-    letter-spacing: 0.4px;
-    word-spacing: 0.5px;
+.bottomcontent h2{
+  padding-bottom: 1.5rem;
 }
 
-.neeche-right {
-    padding-left: 20px;
-    font-weight: 550;
-    letter-spacing: 0.4px;
-    word-spacing: 0.5px;
+.bottomcontent p{
+  padding-bottom: 1rem;
 }
 
-.neeche-right option {
-    color: black;
+.bottom-lower{
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  
 }
 
-.main {
-    padding-bottom: 50px;
+.inputbox{
+  width: 100%;
+  background-color: transparent;
+  border: 1.7px solid rgb(107 61 47 / 80%);
 }
 
-.maping {
-    width: 100%;
-    padding-bottom: 20px;
+
+.left-bottom{
+  min-width: 50%;
+}
+.right-bottom{
+  min-width: 50%;
 }
 
-.mail {
-    width: 100%;
-    padding-bottom: 20px;
+#message{
+  height: 10rem;
 }
 
-.phone {
-    width: 100%;
-    padding-bottom: 20px;
-}
-
-.maping i {
-    padding-right: 15px;
-}
-
-.neeche-left a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.mail i {
-    padding-right: 15px;
-}
-
-.phone i {
-    padding-right: 15px;
-}
-
-.inp1l {
-    width: 100%;
-    font-size: 15px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-
-.inp1 {
-    font-size: 20px;
-    width: 75%;
-    background: transparent;
-    color: white;
-    height: 2.5vh;
-    box-shadow: 0 0 0 2px rgb(196, 190, 190);
-    border-radius: 2.5px;
-    margin-bottom: 20px;
-}
-
-.inp2l {
-    width: 100%;
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-
-.inp2 {
-    font-size: 20px;
-    width: 75%;
-    background: transparent;
-    color: white;
-    height: 2.5vh;
-    box-shadow: 0 0 0 2px rgb(196, 190, 190);
-    border-radius: 2.5px;
-    margin-bottom: 20px;
-}
-
-.inp3l {
-    width: 100%;
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-
-.inp3 {
-    font-size: 20px;
-    width: 75%;
-    height: 5vh;
-    background: transparent;
-    box-shadow: 0 0 0 2px rgb(196, 190, 190);
-    border-radius: 2.5px;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.btn {
-    background: transparent;
-    padding: 20px 20px;
-    font-size: 15px;
-    font-weight: 600;
-    size: 30px;
-    color: white;
-    cursor: pointer;
-    box-shadow: 0 0 0 2px rgb(196, 190, 190);
-    border-radius: 2.5px;
-    color: white;
-    margin-bottom: 20%;
-}
-
-.aur-neeche {
-    padding-top: 25px;
-}
-
-.aur-neeche a {
-    color: #fff;
-    font-size: 17.5px;
-    text-decoration: none;
+.label{
+  
+  line-height: 0.5rem;
 }
